@@ -24,6 +24,10 @@ inputs:
     description: 'Jenkins timeout period for called functions. Default to 150 seconds'
     required: false
     default: '150'
+  use_post_request:
+    description: 'Use post requests instead of get to trigger Jenkins jobs'
+    required: false
+    default: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
