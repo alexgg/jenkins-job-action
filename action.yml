@@ -1,4 +1,4 @@
-name: 'Run Jenkins Job with Build Result'
+name: 'Run Jenkins Job with Build Result with post requests support'
 description: 'Triggers Jenkins Job and follows up build result'
 author: 'Data Platform Team'
 inputs:

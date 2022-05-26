@@ -39,6 +39,9 @@ Description: Jenkins console log regex group number to collect specific match fr
 
 Description: Jenkins timeout period for called functions. Default to 150 seconds.
 
+### `use_post_request` (**not required**)
+
+Use post request instead of get to trigger Jenkins jobs.
 
 ## Example usage
 
@@ -63,4 +66,5 @@ jobs:
         console_log_regex: "KGVuY29kZWQpIChyZWdleCBydWxlKSAod2l0aCAzIHNlYXJjaCBncm91cHMp" # Optional. This is base64 encoded.
         console_log_regex_group: "2" # Optional.
         job_timeout: "150" # Optional.
+        use_post_request: "False" # Optional.
 ```
